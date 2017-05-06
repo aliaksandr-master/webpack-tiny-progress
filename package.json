@@ -1,6 +1,6 @@
 {
   "name": "webpack-tiny-progress",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple progress logger",
   "main": "lib/index.js",
   "scripts": {
