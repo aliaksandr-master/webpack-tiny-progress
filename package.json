@@ -1,0 +1,35 @@
+{
+  "name": "webpack-tiny-progress",
+  "version": "1.0.0",
+  "description": "simple progress logger",
+  "main": "lib/index.js",
+  "scripts": {
+    "cleanup": "npm prune && npm i && npm dedupe",
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "test": "node_modules/.bin/eslint --color --config ./.eslintrc.json lib/**/*.js && npm run jest",
+    "jest": "node_modules/.bin/jest -c=jest-config.json --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliaksandr-master/webpack-tiny-progress.git"
+  },
+  "keywords": [],
+  "author": "alxe.master@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aliaksandr-master/webpack-tiny-progress/issues"
+  },
+  "homepage": "https://github.com/aliaksandr-master/webpack-tiny-progress#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0"
+  },
+  "peerDependencies": {
+    "webpack": ">= 2.0.0"
+  },
+  "engines": {
+    "node": "7.2.0"
+  }
+}
