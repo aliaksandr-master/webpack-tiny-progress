@@ -1,0 +1,7 @@
+**/*
+
+!lib/**/*
+!README.md
+!LICENSE-MIT
+
+**/__tests__
